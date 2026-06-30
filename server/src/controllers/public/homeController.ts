@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
-import { getHomeData } from '@/services/listingService';
-import { renderHomeView } from '@/views/pages/home';
+import { getHomeData } from '../../services/listingService';
+import { renderHomeView } from '../../views/pages/home';
 
 export async function renderHomePage(
   _req: Request,

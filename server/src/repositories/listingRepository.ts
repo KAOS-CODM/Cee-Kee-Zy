@@ -1,9 +1,9 @@
 import crypto from "node:crypto";
 
-import { ListingModel } from "@/models/Listing";
-import { useMockDatabase } from "@/config/databaseMode";
-import { mockDatabase, MockListing } from "@/mock/database";
-import { isMongoConnected } from "@/config/databaseState";
+import { ListingModel } from "../models/Listing";
+import { useMockDatabase } from "../config/databaseMode";
+import { mockDatabase, MockListing } from "../mock/database";
+import { isMongoConnected } from "../config/databaseState";
 
 function usingMock() {
     return useMockDatabase || !isMongoConnected();

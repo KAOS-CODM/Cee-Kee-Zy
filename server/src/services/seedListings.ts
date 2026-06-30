@@ -1,4 +1,4 @@
-import { listingRepository } from '@/repositories/listingRepository';
+import { listingRepository } from '../repositories/listingRepository';
 
 export async function seedListings(): Promise<void> {
 

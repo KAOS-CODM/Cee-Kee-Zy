@@ -1,4 +1,4 @@
-import { publicLayout } from "@/views/layouts/publicLayout";
+import { publicLayout } from "../../../views/layouts/publicLayout";
 
 export function renderContactView(): string {
     return publicLayout({

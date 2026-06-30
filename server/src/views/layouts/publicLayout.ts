@@ -1,7 +1,7 @@
-import { renderHead } from "@/views/partials/head";
-import { renderNavbar } from "@/views/partials/navbar";
-import { renderFooter } from "@/views/partials/footer";
-import type { SeoData } from "@/utils/seo";
+import { renderHead } from "../../views/partials/head";
+import { renderNavbar } from "../../views/partials/navbar";
+import { renderFooter } from "../../views/partials/footer";
+import type { SeoData } from "../../utils/seo";
 
 interface PublicLayoutOptions {
     seo: SeoData;

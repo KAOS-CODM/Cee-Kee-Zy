@@ -1,6 +1,6 @@
-import { listingRepository } from "@/repositories/listingRepository";
-import { slugifyTitle } from "@/utils/slugify";
-import { sanitizeText } from "@/utils/xss";
+import { listingRepository } from "../repositories/listingRepository";
+import { slugifyTitle } from "../utils/slugify";
+import { sanitizeText } from "../utils/xss";
 
 export async function createListing(input: {
     title: string;

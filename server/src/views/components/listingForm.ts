@@ -1,4 +1,4 @@
-import type { ListingData } from "@/views/types/listing";
+import type { ListingData } from "../../views/types/listing";
 
 interface ListingFormOptions {
     action: string;

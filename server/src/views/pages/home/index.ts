@@ -1,6 +1,6 @@
-import { publicLayout } from "@/views/layouts/publicLayout";
-import { renderPropertyGrid } from "@/views/partials/propertyGrid";
-import type { HomeViewData } from "@/views/types/home";
+import { publicLayout } from "../../../views/layouts/publicLayout";
+import { renderPropertyGrid } from "../../../views/partials/propertyGrid";
+import type { HomeViewData } from "../../../views/types/home";
 
 export function renderHomeView(data: HomeViewData){
 

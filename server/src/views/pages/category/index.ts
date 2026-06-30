@@ -1,7 +1,7 @@
-import type { Listing } from '@/models/Listing';
+import type { Listing } from '../../../models/Listing';
 
-import { publicLayout } from "@/views/layouts/publicLayout";
-import { renderPropertyCard } from "@/views/partials/propertyCard";
+import { publicLayout } from "../../../views/layouts/publicLayout";
+import { renderPropertyCard } from "../../../views/partials/propertyCard";
 
 interface CategoryViewData {
     category: string,

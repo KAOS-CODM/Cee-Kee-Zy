@@ -1,12 +1,12 @@
-import type { Listing } from "@/models/Listing";
+import type { Listing } from "../../../models/Listing";
 
-import { publicLayout } from "@/views/layouts/publicLayout";
+import { publicLayout } from "../../../views/layouts/publicLayout";
 
-import { renderListingGallery } from "@/views/partials/listingGallery";
-import { renderListingInfo } from "@/views/partials/listingInfo";
-import { renderListingDescription } from "@/views/partials/listingDescription";
-import { renderPropertyGrid } from "@/views/partials/propertyGrid";
-import { SeoData } from "@/utils/seo";
+import { renderListingGallery } from "../../../views/partials/listingGallery";
+import { renderListingInfo } from "../../../views/partials/listingInfo";
+import { renderListingDescription } from "../../../views/partials/listingDescription";
+import { renderPropertyGrid } from "../../../views/partials/propertyGrid";
+import { SeoData } from "../../../utils/seo";
 
 interface ListingPageData {
 

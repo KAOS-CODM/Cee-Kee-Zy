@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { verifyAdminLogin } from '@/services/adminService';
+import { verifyAdminLogin } from '../../services/adminService';
 
 export async function adminLogin(req: Request, res: Response): Promise<void> {
   const email = String(req.body.email ?? '');

@@ -6,15 +6,15 @@ import {
   updateListingById,
   deleteListingById,
   listAdmin,
-} from '@/services/listingService';
+} from '../../services/listingService';
 
 import {
   ListingCreateSchema,
   ListingUpdateSchema,
   SearchQuerySchema,
-} from '@/utils/validation';
+} from '../../utils/validation';
 
-import { uploadListingImages } from '@/services/cloudinaryUpload';
+import { uploadListingImages } from '../../services/cloudinaryUpload';
 
 export async function apiGetListings(req: Request, res: Response): Promise<void> {
   const page = Number(req.query.page ?? 1);

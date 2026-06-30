@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt';
-import { AdminUser } from '@/models/AdminUser';
+import { AdminUser } from '../models/AdminUser';
 
 
 export async function ensureDefaultAdmin(): Promise<void> {

@@ -2,7 +2,7 @@ import type { Request } from 'express';
 
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import { AdminUser } from '@/models/AdminUser';
+import { AdminUser } from '../models/AdminUser';
 
 export async function verifyAdminLogin(email: string, password: string): Promise<string> {
   const user = await AdminUser.findOne({ email: email.toLowerCase().trim() });

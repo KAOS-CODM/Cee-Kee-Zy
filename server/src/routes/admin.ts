@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { renderAdminLoginPage, renderAdminDashboardPage, renderAdminListingsPage, renderAdminCreatePage, renderAdminEditPage, submitCreateListing, submitEditListing, deleteListing } from '@/controllers/admin/adminPagesController';
-import { requireAdminAuth } from '@/middleware/authRequired';
-import { uploadImages } from '@/middleware/uploadMulter';
+import { renderAdminLoginPage, renderAdminDashboardPage, renderAdminListingsPage, renderAdminCreatePage, renderAdminEditPage, submitCreateListing, submitEditListing, deleteListing } from '../controllers/admin/adminPagesController';
+import { requireAdminAuth } from '../middleware/authRequired';
+import { uploadImages } from '../middleware/uploadMulter';
 
 export const adminRoutes = Router();
 

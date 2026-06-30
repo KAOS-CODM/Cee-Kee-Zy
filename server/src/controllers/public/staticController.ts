@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
-import { renderAboutView } from '@/views/pages/about';
-import { renderContactView } from '@/views/pages/contact';
+import { renderAboutView } from '../../views/pages/about';
+import { renderContactView } from '../../views/pages/contact';
 
 export async function renderContactPage(
   _req: Request, 

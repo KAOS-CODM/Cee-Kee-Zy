@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { listingRepository } from '@/repositories/listingRepository';
+import { listingRepository } from '../../repositories/listingRepository';
 
 export async function sitemapXml(req: Request, res: Response): Promise<void> {
     const listings = await listingRepository.search({

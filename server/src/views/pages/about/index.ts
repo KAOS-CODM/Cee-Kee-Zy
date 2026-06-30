@@ -1,4 +1,4 @@
-import { publicLayout } from "@/views/layouts/publicLayout";
+import { publicLayout } from "../../../views/layouts/publicLayout";
 
 export function renderAboutView(): string {
     return publicLayout({

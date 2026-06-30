@@ -1,6 +1,6 @@
-import { publicLayout } from "@/views/layouts/publicLayout";
-import { renderPropertyCard } from "@/views/partials/propertyCard";
-import type { Listing } from "@/models/Listing";
+import { publicLayout } from "../../../views/layouts/publicLayout";
+import { renderPropertyCard } from "../../../views/partials/propertyCard";
+import type { Listing } from "../../../models/Listing";
 
 interface SearchViewData {
     results: Listing[];

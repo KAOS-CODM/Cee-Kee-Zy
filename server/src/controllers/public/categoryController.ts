@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
-import { listByCategory } from '@/services/listingService';
-import { renderCategoryView } from '@/views/pages/category';
+import { listByCategory } from '../../services/listingService';
+import { renderCategoryView } from '../../views/pages/category';
 
 export async function renderCategoryPage(
   req: Request,

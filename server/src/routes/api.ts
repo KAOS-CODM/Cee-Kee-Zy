@@ -5,10 +5,10 @@ import {
     apiCreateListing, 
     apiUpdateListing, 
     apiDeleteListing, 
-    apiGetListings } from '@/controllers/api/listingsController';
-import { uploadImages } from '@/middleware/uploadMulter';
-import { requireAdminAuth } from '@/middleware/authRequired';
-import { adminLogin, adminLogout } from '@/controllers/api/adminAuthController';
+    apiGetListings } from '../controllers/api/listingsController';
+import { uploadImages } from '../middleware/uploadMulter';
+import { requireAdminAuth } from '../middleware/authRequired';
+import { adminLogin, adminLogout } from '../controllers/api/adminAuthController';
 
 export const apiRoutes = Router();
 

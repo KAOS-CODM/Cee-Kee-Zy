@@ -1,6 +1,6 @@
-import { renderAdminLayout } from "@/views/admin/layout";
-import { renderListingForm } from "@/views/components/listingForm";
-import type { ListingData } from "@/views/types/listing";
+import { renderAdminLayout } from "../../../views/admin/layout";
+import { renderListingForm } from "../../../views/components/listingForm";
+import type { ListingData } from "../../../views/types/listing";
 
 export function renderEditListingPage(
     listing: ListingData

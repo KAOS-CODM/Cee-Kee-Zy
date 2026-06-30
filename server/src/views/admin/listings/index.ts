@@ -1,6 +1,6 @@
-import { renderAdminLayout } from "@/views/admin/layout";
-import type { ListingData } from "@/views/types/listing";
-import { renderListingRow } from "@/views/admin/listings/listingRow";
+import { renderAdminLayout } from "../../../views/admin/layout";
+import type { ListingData } from "../../../views/types/listing";
+import { renderListingRow } from "../../../views/admin/listings/listingRow";
 
 interface ListingsPageData {
     listings: ListingData[];

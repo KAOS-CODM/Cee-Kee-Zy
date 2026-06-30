@@ -3,12 +3,12 @@ import type { Request, Response } from "express";
 import {
     getListingBySlug,
     getRelatedListings
-} from "@/services/listingService";
+} from "../../services/listingService";
 
 import { renderListingPage as renderListingView }
-    from "@/views/pages/listing";
+    from "../../views/pages/listing";
 
-import { buildListingSeo } from "@/utils/seo";
+import { buildListingSeo } from "../../utils/seo";
 
 export async function renderListingPage(
     req: Request,

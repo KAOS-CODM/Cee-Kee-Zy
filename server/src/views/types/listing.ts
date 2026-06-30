@@ -1,4 +1,4 @@
-import type { ListingCategory, ListingStatus } from "@/models/Listing";
+import type { ListingCategory, ListingStatus } from "../../models/Listing";
 import type { Types } from "mongoose";
 
 export interface ListingData {

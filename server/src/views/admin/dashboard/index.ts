@@ -1,4 +1,4 @@
-import { renderAdminLayout } from "@/views/admin/layout";
+import { renderAdminLayout } from "../../../views/admin/layout";
 
 interface DashboardData {
     total: number;

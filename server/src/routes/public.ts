@@ -1,12 +1,12 @@
 import { Router } from 'express';
-import { renderHomePage } from '@/controllers/public/homeController';
-import { renderCategoryPage } from '@/controllers/public/categoryController';
-import { renderSearchPage } from '@/controllers/public/searchController';
-import { renderListingPage } from '@/controllers/public/listingController';
-import { renderContactPage } from '@/controllers/public/staticController';
-import { renderAboutPage } from '@/controllers/public/staticController';
-import { robotsTxt } from '@/controllers/public/seoController';
-import { sitemapXml } from '@/controllers/public/seoController';
+import { renderHomePage } from '../controllers/public/homeController';
+import { renderCategoryPage } from '../controllers/public/categoryController';
+import { renderSearchPage } from '../controllers/public/searchController';
+import { renderListingPage } from '../controllers/public/listingController';
+import { renderContactPage } from '../controllers/public/staticController';
+import { renderAboutPage } from '../controllers/public/staticController';
+import { robotsTxt } from '../controllers/public/seoController';
+import { sitemapXml } from '../controllers/public/seoController';
 
 export const publicRoutes = Router();
 

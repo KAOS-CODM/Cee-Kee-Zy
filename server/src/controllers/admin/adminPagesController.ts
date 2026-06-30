@@ -1,20 +1,20 @@
 import type { Request, Response } from 'express';
 
-import { renderDashboard } from "@/views/admin/dashboard";
-import { listingRepository } from "@/repositories/listingRepository";
+import { renderDashboard } from "../../views/admin/dashboard";
+import { listingRepository } from "../../repositories/listingRepository";
 
-import { renderListingsPage } from "@/views/admin/listings";
-import { renderCreateListingPage } from "@/views/admin/listings/create";
-import { renderEditListingPage } from "@/views/admin/listings/edit";
-import { renderAdminLoginPage as loginView } from "@/views/admin/login";
-import { uploadListingImages } from "@/services/cloudinaryUpload";
+import { renderListingsPage } from "../../views/admin/listings";
+import { renderCreateListingPage } from "../../views/admin/listings/create";
+import { renderEditListingPage } from "../../views/admin/listings/edit";
+import { renderAdminLoginPage as loginView } from "../../views/admin/login";
+import { uploadListingImages } from "../../services/cloudinaryUpload";
 
 import {
   getListingForAdminById,
   createListing,
   updateListingById,
   deleteListingById
-} from "@/services/listingService";
+} from "../../services/listingService";
 
 // LOGIN PAGE
 export async function renderAdminLoginPage(req: Request, res: Response): Promise<void> {

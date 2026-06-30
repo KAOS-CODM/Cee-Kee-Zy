@@ -1,8 +1,8 @@
 import type { Request, Response } from "express";
 
-import { searchListings } from "@/services/listingService";
+import { searchListings } from "../../services/listingService";
 
-import { renderSearchView } from "@/views/pages/search";
+import { renderSearchView } from "../../views/pages/search";
 
 export async function renderSearchPage(
     req: Request,

@@ -1,5 +1,5 @@
-import { renderAdminLayout } from "@/views/admin/layout";
-import { renderListingForm } from "@/views/components/listingForm";
+import { renderAdminLayout } from "../../../views/admin/layout";
+import { renderListingForm } from "../../../views/components/listingForm";
 
 export function renderCreateListingPage() {
 

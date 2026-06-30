@@ -1,4 +1,4 @@
-import type { Listing } from '@/models/Listing';
+import type { Listing } from '../../models/Listing';
 
 export interface HomeViewData {
   featured: Listing[];

@@ -1,7 +1,7 @@
 import type { Request, Response } from 'express';
-import { listAdmin, updateListingById, createListing, deleteListingById } from '@/services/listingService';
-import { ListingCreateSchema, ListingUpdateSchema } from '@/utils/validation';
-import { uploadListingImages } from '@/services/cloudinaryUpload';
+import { listAdmin, updateListingById, createListing, deleteListingById } from '../../services/listingService';
+import { ListingCreateSchema, ListingUpdateSchema } from '../../utils/validation';
+import { uploadListingImages } from '../../services/cloudinaryUpload';
 
 export async function adminGetListings(req: Request, res: Response): Promise<void> {
   const { q, category, status, sort, page, pageSize } = req.query;
