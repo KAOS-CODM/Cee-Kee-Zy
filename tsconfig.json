@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+
+    "rootDir": "./server",
+    "outDir": "./dist",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    "baseUrl": ".",
+
+    "paths": {
+      "@/*": ["server/src/*"]
+    },
+
+    "types": ["node"]
+  },
+
+  "include": [
+    "server/**/*.ts",
+    "api_test.ts"  ],
+
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

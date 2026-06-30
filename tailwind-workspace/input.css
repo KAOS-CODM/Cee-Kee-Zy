@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@source "../server/src/views/**/*.ts";
+@source "../client/**/*.js";
+@source "../client/**/*.html";
+
+/*@layer base{
+    .navbar { position: fixed; top: 0; left: 0; width: 100%; background-color: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--gray-light); z-index: 1000; padding: var(--space-md) 0; }
+    .container .navbar  { display: flex; justify-content: space-between; align-items: center; }
+}*/
