@@ -100,7 +100,7 @@ Interested?
 
 <a
 
-href="https://wa.me/2348000000000?text=Hello,%20I'm%20interested%20in%20${encodeURIComponent(listing.title)}"
+href="https://wa.me/2349165974556?text=Hello,%20I'm%20interested%20in%20${encodeURIComponent(listing.title)}"
 
 target="_blank"
 
@@ -112,7 +112,7 @@ class="block w-full text-center bg-emerald-400 hover:bg-emerald-500 text-black r
 
 <a
 
-href="tel:+2348000000000"
+href="tel:+2349165974556"
 
 class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white rounded-xl py-4 mb-4">
 

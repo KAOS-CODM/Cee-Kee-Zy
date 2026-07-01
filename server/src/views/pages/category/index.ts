@@ -43,7 +43,14 @@ export function renderCategoryView(data: CategoryViewData): string {
 
 </section>
 <section>
-    <h1 class="text-5xl font-bold mb-4 text-center">Available Listings</h1>
+    <div class="mb-8 border-1-4 border-blue-600 pl-5">
+        <h2 class="text-3xl font-bold md:text-4xl text-slate-900">
+            Available Listings
+        </h2>
+        <p class="mt-2 text-slate-500 text-base">
+            Browse through our latest verified properties in the ${data.category} category.
+        </p>
+    </div>
     <div class="grid md:grid-cols-3 gap-6">
       ${data.listings.map(renderPropertyCard).join('')}
     </div>
